@@ -528,11 +528,6 @@ a:hover { color: var(--text); }
   margin-bottom: 10px;
 }
 
-.root-degrees {
-  font-size: 13px;
-  line-height: 1.8;
-}
-
 /* ── Resume CTA ── */
 .chapter--cta {
   background: var(--surface);
@@ -557,6 +552,13 @@ a:hover { color: var(--text); }
   font-size: 16px;
   line-height: 1.7;
   margin-bottom: 36px;
+}
+
+.resume-cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
 .cta-links {
